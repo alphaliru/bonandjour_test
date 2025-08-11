@@ -1,7 +1,7 @@
 // 簡易商品資料
 export const PRODUCTS = [
   { id: 1, name: '法式覆盆莓塔', price: 180, category: '塔類',
-    image: 'public/images/chocolate.jpeg' },
+    image: import.meta.env.BASE_URL + 'images/chocolate.jpeg' },
   { id: 2, name: '黑巧克力蛋糕', price: 220, category: '蛋糕',
     image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476e?q=80&w=1200&auto=format&fit=crop' },
   { id: 3, name: '海鹽焦糖布蕾', price: 120, category: '布丁',

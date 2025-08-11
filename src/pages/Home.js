@@ -1,17 +1,10 @@
 import React from 'react';
 
-function Home() {
+export default function Home() {
   return (
-    <section style={{ padding: '40px', textAlign: 'center' }}>
-      <h1>Bonandjour</h1>
-      <p>歡迎來到我們的甜點世界！</p>
-      <img
-        src="https://via.placeholder.com/800x400?text=甜點首頁Banner"
-        alt="甜點首頁"
-        style={{ width: '100%', borderRadius: '8px' }}
-      />
-    </section>
+    <main style={{ padding: '20px' }}>
+      <h1>歡迎來到 Bonandjour</h1>
+      <p>這裡是首頁內容，展示最新消息與特色商品。</p>
+    </main>
   );
 }
-
-export default Home;
